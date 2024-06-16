@@ -30,7 +30,7 @@ class MovieRecommender:
         return [record["MovieName"] for record in result]
 
 # Substitua 'neo4j://localhost:7687', 'neo4j', 'password' com as suas credenciais de conexão
-recommender = MovieRecommender("neo4j://localhost:7687", "neo4j", "Adriano543520$")
+recommender = MovieRecommender("neo4j://localhost:7687", "neo4j", "PASSWORD")
 recommended_movies = recommender.recommend_movies("Thiago")
 
 print("Movies recommended for Thiago:")
