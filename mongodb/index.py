@@ -39,7 +39,7 @@ def create_item():
     table.put_item(
       Item={
             'id': '001',
-            'name': 'Thiago S Adriano',
+            'name': 'Alice Martins',
             'age': 38
         }
     )
